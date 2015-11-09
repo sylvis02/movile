@@ -14,7 +14,7 @@
 <body>
     <section id="logo">
         <a href="#"><img src="<?php  base_url();?>iconos/logoimp.png" alt="" /></a>
-        <h1 style="font-family: fantasy">GESTIÓN VEHICULAR</h1>
+        <h1 style="font-family: fantasy">GESTIÓN VEHICULAR añadido al git</h1>
     </section>
 
 

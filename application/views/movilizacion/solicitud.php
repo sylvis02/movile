@@ -1,4 +1,4 @@
-<div id="contenido" style="width:80%; margin:auto; padding-top:10;">  
+﻿<div id="contenido" style="width:80%; margin:auto; padding-top:10;">  
 <div class="tab-table"> 
 	<ul class="nav  nav-pills">
 		<li class="active"><a href="#tab1" data-toggle="tab">Nueva Solictud</a></li>
@@ -10,7 +10,7 @@
 		<form id="formulario_ajax" action="<?php echo base_url();?>movilizacion/save_solicitud" method="post" >
 			 <table align="center" class="table" >	
 				<tr>
-				   <td align="left">Solicitante cambio al git:</td>
+				   <td align="left">Solicitante:</td>
 				   <td align="left"><input title="Se necesita un nombre" type="text" maxlength="10" id="solicitante" class="form-control" name="solicitante" size="60" onkeyUp="return ValNumero(this)" placeholder="Ingrese el numero de cedula" required /></td>   
 				   <td ><div id="mensaje" class="alert alert-danger" style="display:none"></div></td>
 				   <td><select class="form-control" onchange="validarce(this.value);">
